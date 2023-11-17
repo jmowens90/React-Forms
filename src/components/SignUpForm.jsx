@@ -2,6 +2,7 @@ import { useState } from "react";
 
 
 
+// eslint-disable-next-line react/prop-types
 const SignUpForm = ({setToken}) => {
     const [userName, setUserName] = useState("");
     const [password, setPassword] = useState("");
